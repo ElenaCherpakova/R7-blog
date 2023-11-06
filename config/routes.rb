@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :posts do
-  resources :comments
+    resources :comments
     # get    '/comments',          to: 'comments#index', as: 'comments'
     # post   '/comments',          to: 'comments#create'
     # get    '/comments/new',      to: 'comments#new',   as: 'new_comment'
